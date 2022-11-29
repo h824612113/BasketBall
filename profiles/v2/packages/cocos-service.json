@@ -1,0 +1,20 @@
+{
+  "options": {
+    "wechatgame": {
+      "configID": "28bca5",
+      "services": []
+    },
+    "windows": {
+      "configID": "28bca5",
+      "services": []
+    },
+    "web-mobile": {
+      "configID": "28bca5",
+      "services": []
+    }
+  },
+  "builder-options": {
+    "configID": "28bca5",
+    "services": []
+  }
+}

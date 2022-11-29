@@ -1,0 +1,132 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0f111504-f819-445a-acda-3dee12c15730",
+  "files": [],
+  "subMetas": {
+    "99480": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "name": "Basketball_1_43.mesh",
+      "id": "99480",
+      "displayName": "",
+      "uuid": "0f111504-f819-445a-acda-3dee12c15730@99480",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "1e446": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "name": "Icosphere.mesh",
+      "id": "1e446",
+      "displayName": "",
+      "uuid": "0f111504-f819-445a-acda-3dee12c15730@1e446",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "12b8b": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "name": "Torus.mesh",
+      "id": "12b8b",
+      "displayName": "",
+      "uuid": "0f111504-f819-445a-acda-3dee12c15730@12b8b",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      }
+    },
+    "fa236": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "name": "Fabric___Gray.material",
+      "id": "fa236",
+      "displayName": "",
+      "uuid": "0f111504-f819-445a-acda-3dee12c15730@fa236",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "ee5b8": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "name": "unnamed.material",
+      "id": "ee5b8",
+      "displayName": "",
+      "uuid": "0f111504-f819-445a-acda-3dee12c15730@ee5b8",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "0f67a": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "name": "Goal.prefab",
+      "id": "0f67a",
+      "displayName": "",
+      "uuid": "0f111504-f819-445a-acda-3dee12c15730@0f67a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "normals": 2,
+    "tangents": 2,
+    "dumpMaterials": false,
+    "redirect": "0f111504-f819-445a-acda-3dee12c15730@0f67a",
+    "assetFinder": {
+      "meshes": [
+        "0f111504-f819-445a-acda-3dee12c15730@99480",
+        "0f111504-f819-445a-acda-3dee12c15730@1e446",
+        "0f111504-f819-445a-acda-3dee12c15730@12b8b"
+      ],
+      "materials": [
+        "0f111504-f819-445a-acda-3dee12c15730@fa236",
+        "0f111504-f819-445a-acda-3dee12c15730@ee5b8"
+      ],
+      "scenes": [
+        "0f111504-f819-445a-acda-3dee12c15730@0f67a"
+      ],
+      "skeletons": [],
+      "textures": []
+    },
+    "imageMetas": [],
+    "legacyFbxImporter": true
+  }
+}

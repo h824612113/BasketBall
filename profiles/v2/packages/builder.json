@@ -1,0 +1,114 @@
+{
+  "common": {
+    "taskName": "wechatgame",
+    "platform": "web-mobile",
+    "debug": false,
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep"
+  },
+  "BuildTaskManager": {
+    "queue": [
+      {
+        "id": "wechatgame",
+        "state": "success",
+        "progress": 1,
+        "options": {
+          "appid": "",
+          "buildPath": "build",
+          "compressTexture": true,
+          "debug": true,
+          "designResolution": {
+            "width": 960,
+            "height": 640,
+            "fitWidth": true,
+            "fitHeight": false
+          },
+          "embedWebDebugger": false,
+          "forceCombileEngine": false,
+          "includeModules": [
+            "base",
+            "gfx-webgl",
+            "gfx-webgl2",
+            "ui",
+            "particle",
+            "physics-cannon",
+            "physics-framework",
+            "audio",
+            "tween",
+            "terrain"
+          ],
+          "inlineSpriteFrames": false,
+          "md5Cache": false,
+          "mergeStartScene": false,
+          "name": "class_basketball",
+          "orientation": "landscape",
+          "packAutoAtlas": true,
+          "platform": "wechatgame",
+          "remoteServerAddress": "",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/game.scene",
+              "uuid": "2a9ba6af-5dc4-4684-9564-08091c88d237"
+            }
+          ],
+          "sourceMaps": false,
+          "startScene": "2a9ba6af-5dc4-4684-9564-08091c88d237",
+          "subContext": "",
+          "taskName": "wechatgame"
+        },
+        "message": "build sucess in 80817 ms!"
+      }
+    ],
+    "taskMap": {
+      "1669528414321": {
+        "id": "1669528414321",
+        "progress": 1,
+        "state": "success",
+        "message": "2022-11-27 13:55 Build success in 107130 ms!",
+        "options": {
+          "name": "class_basketball",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": true,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "2a9ba6af-5dc4-4684-9564-08091c88d237",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/game.scene",
+              "uuid": "2a9ba6af-5dc4-4684-9564-08091c88d237",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile",
+          "taskName": "wechatgame",
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "28bca5",
+              "services": []
+            }
+          }
+        },
+        "time": "2022-11-27 13:53",
+        "dirty": false
+      }
+    }
+  },
+  "__version__": "1.2.9",
+  "log": {
+    "level": 4
+  }
+}

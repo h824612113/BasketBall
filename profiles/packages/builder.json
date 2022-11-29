@@ -1,0 +1,61 @@
+{
+  "common": {
+    "taskName": "wechatgame",
+    "platform": "wechatgame",
+    "debug": true
+  },
+  "BuildTaskManager": {
+    "queue": [
+      {
+        "id": "wechatgame",
+        "state": "success",
+        "progress": 1,
+        "options": {
+          "appid": "",
+          "buildPath": "build",
+          "compressTexture": true,
+          "debug": true,
+          "designResolution": {
+            "width": 960,
+            "height": 640,
+            "fitWidth": true,
+            "fitHeight": false
+          },
+          "embedWebDebugger": false,
+          "forceCombileEngine": false,
+          "includeModules": [
+            "base",
+            "gfx-webgl",
+            "gfx-webgl2",
+            "ui",
+            "particle",
+            "physics-cannon",
+            "physics-framework",
+            "audio",
+            "tween",
+            "terrain"
+          ],
+          "inlineSpriteFrames": false,
+          "md5Cache": false,
+          "mergeStartScene": false,
+          "name": "class_basketball",
+          "orientation": "landscape",
+          "packAutoAtlas": true,
+          "platform": "wechatgame",
+          "remoteServerAddress": "",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/game.scene",
+              "uuid": "2a9ba6af-5dc4-4684-9564-08091c88d237"
+            }
+          ],
+          "sourceMaps": false,
+          "startScene": "2a9ba6af-5dc4-4684-9564-08091c88d237",
+          "subContext": "",
+          "taskName": "wechatgame"
+        },
+        "message": "build sucess in 80817 ms!"
+      }
+    ]
+  }
+}
