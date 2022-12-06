@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, systemEvent, RigidBodyComponent, UITransformComponent, Vec3 } from "cc";
+import { _decorator, Component, Node, systemEvent, RigidBodyComponent, UITransformComponent, Vec3, CameraComponent } from "cc";
 const { ccclass, property } = _decorator;
 
 class State {
@@ -13,16 +13,18 @@ export class ball_ctrl extends Component {
 
     @property(UITransformComponent)
     private content: UITransformComponent = null;
-    @property({type:Node})
-    private camera: Node = null;
 
     private state: number = State.Idle;
     private body: RigidBodyComponent = null;    
 
     private start_pos: Vec3 = null;
 
+    @property({type:Node})
+    camera:Node = null;
     private add_delta: number = 0;
     private group_speed: number = (6.5 - 3.5) / 3; // 蓄力增长的速度;
+    public isStart:boolean = false;
+    private cameraOriginPos:Vec3 = Vec3.ZERO;
 
     onLoad(): void {
         
@@ -35,6 +37,7 @@ export class ball_ctrl extends Component {
         this.set_per(0);
         systemEvent.on(Node.EventType.TOUCH_START, this.on_touch_start, this);
         systemEvent.on(Node.EventType.TOUCH_END, this.on_touch_end, this);
+        this.cameraOriginPos = this.camera.getPosition();//摄像机的原始位置
     }
 
     reset_ball() {
@@ -45,6 +48,7 @@ export class ball_ctrl extends Component {
         this.body.useGravity = false;
         this.state = State.Idle;
         this.set_per(0);
+        this.camera.setPosition(this.cameraOriginPos);
     }
 
     set_per(per: number): void {
@@ -53,6 +57,10 @@ export class ball_ctrl extends Component {
 
     on_touch_start(): void {
         if (this.state != State.Idle) {
+            return;
+        }
+        if(!this.isStart)
+        {
             return;
         }
 
@@ -90,6 +98,10 @@ export class ball_ctrl extends Component {
     update (deltaTime: number):void {
         if (this.state != State.AddForce) {
             return;
+        }else if(this.state === State.ThrowOut)
+        {
+            let pos =  this.camera.getPosition();
+            // pos.z -= this.group_speed*Math.cos(this.)
         }
 
         this.add_delta += (this.group_speed * deltaTime);

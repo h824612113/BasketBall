@@ -1,41 +1,42 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
-  "uuid": "4a589c28-171d-4d91-90c4-36a4ef3326e0",
+  "uuid": "3d0d9e19-3d73-485a-b256-a4ec7bef8283",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
       "importer": "texture",
-      "name": "texture",
-      "id": "6c48a",
+      "uuid": "3d0d9e19-3d73-485a-b256-a4ec7bef8283@6c48a",
       "displayName": "plane",
-      "uuid": "4a589c28-171d-4d91-90c4-36a4ef3326e0@6c48a",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {},
+      "id": "6c48a",
+      "name": "texture",
       "userData": {
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
-        "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "4a589c28-171d-4d91-90c4-36a4ef3326e0"
-      }
+        "imageUuidOrDatabaseUri": "3d0d9e19-3d73-485a-b256-a4ec7bef8283",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
+    "hasAlpha": false,
     "type": "texture",
-    "redirect": "4a589c28-171d-4d91-90c4-36a4ef3326e0@6c48a",
-    "hasAlpha": false
+    "redirect": "3d0d9e19-3d73-485a-b256-a4ec7bef8283@6c48a",
+    "fixAlphaTransparencyArtifacts": false
   }
 }

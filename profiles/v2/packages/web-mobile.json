@@ -1,0 +1,23 @@
+{
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "debug": false,
+    "replaceSplashScreen": true,
+    "scenes": [
+      {
+        "url": "db://assets/scenes/game.scene",
+        "uuid": "2a9ba6af-5dc4-4684-9564-08091c88d237",
+        "inBundle": false
+      }
+    ]
+  },
+  "options": {
+    "web-mobile": {
+      "orientation": "portrait",
+      "__version__": "1.0.1",
+      "embedWebDebugger": false
+    }
+  }
+}

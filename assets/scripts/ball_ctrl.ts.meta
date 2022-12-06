@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "6d6433f7-1261-45a9-91a2-c39e82780086",
@@ -7,7 +7,6 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/ball_ctrl.ts",
-    "importAsPlugin": false,
     "simulateGlobals": []
   }
 }

@@ -1,114 +1,115 @@
 {
-  "ver": "2.1.4",
+  "ver": "2.3.1",
   "importer": "fbx",
   "imported": true,
-  "uuid": "73a71b60-fbca-49f2-8cca-ed34348b1606",
+  "uuid": "643b557e-fe2a-4bb7-98a4-bff418c3f48f",
   "files": [],
   "subMetas": {
-    "59280": {
-      "ver": "1.1.0",
+    "f211d": {
       "importer": "gltf-mesh",
-      "name": "holder_1__1.mesh",
-      "id": "59280",
+      "uuid": "643b557e-fe2a-4bb7-98a4-bff418c3f48f@f211d",
       "displayName": "",
-      "uuid": "73a71b60-fbca-49f2-8cca-ed34348b1606@59280",
-      "imported": true,
-      "files": [
-        ".bin",
-        ".json"
-      ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 1
-      }
-    },
-    "99480": {
-      "ver": "1.1.0",
-      "importer": "gltf-mesh",
-      "name": "Basketball_1_43.mesh",
-      "id": "99480",
-      "displayName": "",
-      "uuid": "73a71b60-fbca-49f2-8cca-ed34348b1606@99480",
-      "imported": true,
-      "files": [
-        ".bin",
-        ".json"
-      ],
-      "subMetas": {},
+      "id": "f211d",
+      "name": "Basketball_1_43_Material1.mesh",
       "userData": {
         "gltfIndex": 0
-      }
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06ce0": {
+      "importer": "gltf-mesh",
+      "uuid": "643b557e-fe2a-4bb7-98a4-bff418c3f48f@06ce0",
+      "displayName": "",
+      "id": "06ce0",
+      "name": "holder_1__1_Material0.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
     },
     "3f12c": {
-      "ver": "1.0.14",
       "importer": "gltf-material",
-      "name": "Metal_red.material",
-      "id": "3f12c",
+      "uuid": "643b557e-fe2a-4bb7-98a4-bff418c3f48f@3f12c",
       "displayName": "",
-      "uuid": "73a71b60-fbca-49f2-8cca-ed34348b1606@3f12c",
+      "id": "3f12c",
+      "name": "Metal_red.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".json"
       ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 0
-      }
+      "subMetas": {}
     },
     "b6461": {
-      "ver": "1.0.14",
       "importer": "gltf-material",
-      "name": "Metal_Polished_Blue.material",
-      "id": "b6461",
+      "uuid": "643b557e-fe2a-4bb7-98a4-bff418c3f48f@b6461",
       "displayName": "",
-      "uuid": "73a71b60-fbca-49f2-8cca-ed34348b1606@b6461",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {},
+      "id": "b6461",
+      "name": "Metal_Polished_Blue.material",
       "userData": {
         "gltfIndex": 1
-      }
-    },
-    "bcf38": {
-      "ver": "1.0.12",
-      "importer": "gltf-scene",
-      "name": "GoalHoop.prefab",
-      "id": "bcf38",
-      "displayName": "",
-      "uuid": "73a71b60-fbca-49f2-8cca-ed34348b1606@bcf38",
+      },
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".json"
       ],
-      "subMetas": {},
+      "subMetas": {}
+    },
+    "bcf38": {
+      "importer": "gltf-scene",
+      "uuid": "643b557e-fe2a-4bb7-98a4-bff418c3f48f@bcf38",
+      "displayName": "",
+      "id": "bcf38",
+      "name": "GoalHoop.prefab",
       "userData": {
         "gltfIndex": 0
-      }
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
-    "normals": 2,
-    "tangents": 2,
-    "dumpMaterials": false,
-    "redirect": "73a71b60-fbca-49f2-8cca-ed34348b1606@bcf38",
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "643b557e-fe2a-4bb7-98a4-bff418c3f48f@bcf38",
     "assetFinder": {
       "meshes": [
-        "73a71b60-fbca-49f2-8cca-ed34348b1606@99480",
-        "73a71b60-fbca-49f2-8cca-ed34348b1606@59280"
-      ],
-      "materials": [
-        "73a71b60-fbca-49f2-8cca-ed34348b1606@3f12c",
-        "73a71b60-fbca-49f2-8cca-ed34348b1606@b6461"
-      ],
-      "scenes": [
-        "73a71b60-fbca-49f2-8cca-ed34348b1606@bcf38"
+        "643b557e-fe2a-4bb7-98a4-bff418c3f48f@f211d",
+        "643b557e-fe2a-4bb7-98a4-bff418c3f48f@06ce0"
       ],
       "skeletons": [],
-      "textures": []
+      "textures": [],
+      "materials": [
+        "643b557e-fe2a-4bb7-98a4-bff418c3f48f@3f12c",
+        "643b557e-fe2a-4bb7-98a4-bff418c3f48f@b6461"
+      ],
+      "scenes": [
+        "643b557e-fe2a-4bb7-98a4-bff418c3f48f@bcf38"
+      ]
     },
-    "imageMetas": [],
-    "legacyFbxImporter": true
+    "fbx": {
+      "preferLocalTimeSpan": false,
+      "smartMaterialEnabled": false
+    }
   }
 }

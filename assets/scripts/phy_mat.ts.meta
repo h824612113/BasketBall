@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "0e0b725c-40e1-43d4-8f49-8261b1acfd1b",
@@ -7,7 +7,6 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/phy_mat.ts",
-    "importAsPlugin": false,
     "simulateGlobals": []
   }
 }
